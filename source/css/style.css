@@ -507,3 +507,25 @@ body {
   position: absolute;
   top: 80px;
 }
+
+@media (max-width: 992px) {
+  .header {
+    background-color: #fff;
+  }
+  .header__menu-list {
+    justify-content: flex-start;
+    padding-top: auto;
+  }
+  .header__btn-in {
+    min-width: 110px;
+  }
+  .header__btn-reg {
+    max-width: 110px;
+    padding: 6px 15px;
+    margin-left: 15px;
+  }
+
+  .svg-logo {
+    margin: 0px;
+  }
+}
