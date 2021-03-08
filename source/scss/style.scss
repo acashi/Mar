@@ -337,3 +337,24 @@ body{
 }
 
 
+
+.blog {
+	padding: 30px 0 125px;
+	&__title {
+		font-style: 34px;
+		line-height: 51px;
+		font-weight: 70px;
+		margin-bottom: 9px;
+	}
+	&__text {margin-bottom: 55px;}
+}
+
+.slider {
+	&__item {
+		//padding: 0 20px;
+	}
+	&__item-img {}
+	&__item-info {}
+	&__item-author {}
+	&__item-title {}
+}

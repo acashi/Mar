@@ -1,8 +1,9 @@
 $(function(){
-
-	$('.slider__inner').slick({
-		nextArrow: '<button type"button" class="slick-next"> NEXT </button>'}
-		) ;
-	
-
-})
+	$('.slider').slick({
+		arrows:false,
+		infinite: true,
+		  slidesToShow: 3,
+		  slidesToScroll: 3,
+		  dots:true
+	});
+});
